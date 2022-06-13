@@ -57,9 +57,6 @@ string find_the_longest_common_prefix_between_two(string InputString1, string In
 	
 }
 
-
-
-
 //the function to then find the LCP amongst all the strings in the given list/array 
 
 string find_the_longest_common_prefix_amongst_all(string given_string_array[], int s) {
@@ -90,8 +87,6 @@ string find_the_longest_common_prefix_amongst_all(string given_string_array[], i
 	
 }
 
-
-
 //driver 
 
 int main(int argc, char *argv[]) {
@@ -115,10 +110,7 @@ int main(int argc, char *argv[]) {
 		
 		cout<<"Input array has the longest common prefix as:" <<OutputLCP.c_str(); 
 		
-	
 	else
 		return {}; 
-	
-
 	
 }
